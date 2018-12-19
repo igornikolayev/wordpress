@@ -1,0 +1,485 @@
+h1, p
+	padding: 0
+	margin: 0
+a
+	text-decoration: none
+li
+	text-decoration: none
+	list-style: none 
+a:hover
+	text-decoration: none
+	color: #3c3d42
+
+.header
+	margin: 0 auto
+	max-width: 1170px
+	&__top
+		display: flex
+		flex-direction: row
+		justify-content: space-between
+		padding-top: 25px
+		padding-bottom: 40px
+		background: #fff
+		&__logotip
+			font-family:  'Anonymous Pro'
+			font-weight: 900
+			font-size: 26px
+			position: relative		
+		&__navigation
+			position: relative
+			top: 7px
+			padding-top: 0px
+			&__list
+				padding: 0px
+				display: flex
+				&__item
+					list-style: none
+					text-decoration: none
+					margin-left: 35px
+					&:first-child
+						margin: 0
+					a
+						color: #747a7a
+						&:hover
+							color: #3c3d42
+							text-decoration: none
+	&__top__feedback
+		margin-left: 300px
+		display: flex
+		justify-content: center
+		align-items: center
+		color: #8f9092
+		font-family: 'Raleway'
+		font-size: 17px	
+		&__phone
+			display: flex
+			justify-content: center
+			align-items: center
+			img
+				width: 14px
+				height: 14px
+			p
+				margin-left: 10px
+		&__mail
+			margin-left: 40px
+			display: flex
+			justify-content: center
+			align-items: center
+
+			img
+				width: 16px
+				height: 13px
+			p
+				margin-left: 12px	
+.header__bottom
+	background: url(../img/hero.jpg) no-repeat center 
+	background-size: cover 
+	&__main
+		padding-bottom: 255px
+		padding-top: 175px	
+		margin: 0 auto
+		max-width: 1170px
+		font-family: 'Raleway'
+		h1
+			color: #fff
+			font-size: 36px
+			font-weight: bold
+		h2		
+			color: #fff
+			font-size: 36px
+			font-weight: lighter
+			padding-bottom: 40px
+		p
+			font-size: 14px
+			color: #9dc7d1
+			line-height: 24px
+			max-width: 430px
+			padding-bottom: 50px
+		&__button
+			color: #fff
+			font-size: 21px
+			font-weight: bold
+			background: none
+			padding: 10px 57px 10px 53px
+			border-radius: 30px
+			border: solid #90b0b5 	
+			text-transform: uppercase
+
+.featerure
+	margin: 0 auto
+	padding-top: 100px
+	padding-bottom: 110px
+	max-width: 1170px
+	font-family: 'Raleway'
+	&__heading
+		text-align: center
+		h1
+			font-weight: bold
+			font-size: 36px
+			color: #636c6c
+		p
+			margin: 30px auto 0 
+			max-width: 760px
+			font-size: 16px	
+			color: #afb8b8
+	&__menu-scroll
+		padding-top: 60px
+		display: flex
+		flex-direction: row
+		cursor: pointer
+		&__list
+			width: 310px / 1170px*100%
+			height: 600px	
+			overflow-y: scroll
+			overflow-x: hidden 
+			&::-webkit-scrollbar-track 
+    			box-shadow: inset 0 0 1px #dbe2e2 
+			&::-webkit-scrollbar 
+				width: 2px
+				position: relative	
+			&::-webkit-scrollbar-thumb 
+				max-height: 8px
+				width: 11px
+				background: #5dca88
+			&__item
+				padding-top: 70px
+				display: flex
+				color: #9fa9a9
+
+
+				&:hover
+					color: #636c6c
+
+				&:first-child
+					padding-top: 60px
+				&:last-child
+					padding-bottom: 40px
+
+				p
+					padding-left: 40px
+					padding-right: 60px
+					font-size: 20px
+					white-space: nowrap
+				img
+					width: 50px
+					height: 45px
+		&__output
+			padding-top: 106px
+			padding-left: 150px
+			display: flex
+			flex-direction: column
+			width: ((1170px-310px) / 1170px * 100%)
+			position: relative
+			transition: background-position 1.4s ease-in-out 0.3s
+			&__item
+				position: absolute
+				display: none
+				&:first-child
+					display: block
+				img
+					width: 204px
+					height: 172px
+					display: block
+					margin: 0 auto
+
+				p
+					color: #afb8b8
+					font-size: 16px	
+					margin-top: 25px
+					max-width: 640px
+					line-height: 24px
+				h4						
+					font-weight: bold
+					font-size: 24px
+					color: #636c6c
+					margin-top: 75px
+.phone_container
+	background: #f2f9fe
+.phone
+	max-width: 1170px
+	margin: 0 auto
+	display: flex
+	flex-direction: row
+	justify-content: space-between
+	font-family: 'Raleway'
+	font-weight: normal
+	padding-right: 142px
+	padding-bottom: 75px
+	&__decribe
+		padding-top: 160px
+		max-width: 580px / 1170px *100%
+		&__head
+			font-weight: bold
+			font-size: 36px
+			color: #5dca88
+		&__line
+			display: block
+			margin-top: 15px
+			height: 2px
+			background: #949c9c
+			max-width: 103px
+
+		&__second-header
+			margin-top: 41px
+			font-size: 36px
+			color: #8c9494
+		&__main-decription
+			margin-top: 45px
+			font-size: 16px
+			color: #8c9494
+			line-height: 24px
+		&__button
+			margin-top: 80px
+			border: solid #aab2b5
+			color: #636c6c
+			text-transform: uppercase
+			font-size: 21px
+	&__photo
+		margin-top: 65px
+		height: 683px	
+		width: 355px
+		background-image: url(../img/screen.jpg) 
+		background-repeat: no-repeat
+	&__photo__second
+		margin-top: 65px
+		height: 683px	
+		width: 500px
+		background-image: url(../img/screen2.jpg) 
+		background-repeat: no-repeat
+		
+.phone__decribe__second
+	padding-top: 160px
+	max-width: 580px / 1170px *100%
+
+.phone__second
+	max-width: 1170px
+	margin: 0 auto
+	display: flex
+	flex-direction: row
+	justify-content: space-between
+	font-family: 'Raleway'
+	font-weight: normal
+	padding-bottom: 75px
+	z-index: 100
+.galerry
+	display: flex
+	flex-direction: row
+	align-items: center
+	margin-top: 150px
+	position: relative
+	&__right-button
+		cursor: pointer
+		position: relative
+		right: 20px
+	&__left-button
+		position: relative
+		left: 20px
+		cursor: pointer
+	&__main
+		width: 1170px
+		margin: 0 auto
+		font-size: 16px
+		padding-left: 20px
+		padding-right: 20px
+		font-family: 'Raleway'
+		line-height: 24px
+		&__head
+			text-align: center
+			max-width: 760px
+			margin: 0 auto	
+		&__slider
+			margin-top: 80px
+			display: flex
+			flex-direction: row
+			justify-content: space-around
+			&__slide
+				display: flex
+				flex-direction: column
+				justify-content: center
+				align-items: center	
+				img
+					width: 292px
+					height: 622px 	
+				&__decription
+					margin: 40px auto 120px
+					text-align: center
+					font-size: 14px
+					max-width: 250px
+
+.saying
+	display: flex
+	flex-direction: column
+	align-items: center
+	padding-top: 95px
+	font-family: 'Raleway'
+	color: #636c6c
+	&__header
+		font-size: 36px
+		font-weight: bold
+		padding-bottom: 35px
+	&__image
+		
+		background-image: url(../img/user.png) 
+		background-repeat: no-repeat
+		width: 100px
+		height: 100px
+		border-radius: 50px
+		margin: 0 auto
+	&__text
+		color: #8c9494
+		font-style: italic
+		font-size: 24px
+		padding-top: 45px
+		padding-bottom: 20px
+	&__autor
+		color: #5dca88
+		font-size: 24px
+		text-align: center
+		padding-bottom: 40px
+	&__slider
+		padding-bottom: 110px
+		&__circle
+			display: flex
+			flex-direction: row
+			justify-content: center
+			align-items: center
+			align-self: center 
+			&__items
+				display: block
+				margin-left: 10px
+				background: #8c9494
+				border: none
+				height: 10px
+				width: 9px
+				border-radius: 5px
+				&:hover
+					background: #5dca88
+.form
+	padding-top: 90px
+	padding-bottom: 120px	
+	display: flex
+	flex-direction: column
+	align-items: center
+	font-family: 'Raleway'
+	color: #8c9494
+	background-color: #f3f5f5
+	&__head
+		display: flex
+		flex-direction: row
+		align-items: baseline
+		font-weight: bold
+		font-size: 36px
+		padding-bottom: 55px
+		text-align: center
+		position: relative
+		&__image
+			padding-right: 20px
+			position: relative
+			top: -5px
+		&__input
+			height: 60px
+			border: solid
+			border-color: #bbc3c2
+			width: 770px
+			padding-right: 170px
+			padding-left: 30px
+			position: relative
+			border-radius: 50px
+			font-size: 14px
+			outline: none
+		&__button
+			width: 170px
+			height: 60px
+			background-color: #5dca88
+			color: white
+			font-size: 20px
+			font-weight: bold
+			position: absolute
+			top: 0px
+			right: 0px
+			border: none
+			border-radius: 50px
+			outline: none
+
+form
+	position: relative		
+
+button:focus
+	outline: none
+button:hover
+	cursor: pointer
+.footer
+	padding-top: 70px
+	padding-bottom: 50px	
+	display: flex
+	flex-direction: column
+	align-items: center
+	font-family: 'Raleway'
+	color: #8c9494
+	background-color: #2d312f
+	&__head
+		font-size: 24px
+		text-align: center
+	&__icon
+		padding-top: 30px
+		&__list
+			display: flex
+			flex-direction: row
+			margin: 0 auto
+			padding: 0
+			&__item
+				text-decoration: none
+				list-style: none
+				margin-left: 15px
+				&:first-child
+					margin-left: 0px
+				height: 40px
+				width: 40px
+				background: #5d6461
+				border-radius: 20px
+				text-align: center
+				position: relative
+				&__link-you_tube
+					color: #2d312f
+					font-weight: 900
+					font-size: 12px 
+					position: absolute
+					right: 0px
+					top: 10px
+					line-height: 10px
+				&__link
+					color: #2d312f
+					font-weight: 900
+					font-size: 24px 
+					position: absolute
+					left: 15px
+				&__links
+					display: flex
+					flex-direction: row
+				&__circle
+					width: 10px
+					height: 10px
+					background: #2d312f
+					border-radius: 5px
+					position: relative
+					margin-left: 2px
+					top: 15px
+					left: 9px
+					&:first-child
+						margin-left: 0px
+	&__navigation
+		margin-top: 65px
+		&__list
+			display: flex
+			flex-direction: row
+			padding: 0
+			&__item
+				font-size: 14px
+				margin-left: 20px
+				&:first-child
+					margin: 0
+				font-family: 'Raleway'
+				padding: 0
+				a
+					color: #8c9494
+
